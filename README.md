@@ -116,7 +116,7 @@ Restart Claude Desktop. You should see the blue-team-mcp tools available.
 
 ## Available Tools
 
-### 📋 Log Analysis
+### Log Analysis
 | Tool | Description |
 |------|-------------|
 | `blueteam_read_auth_log` | SSH/sudo/PAM events from auth.log |
@@ -124,14 +124,14 @@ Restart Claude Desktop. You should see the blue-team-mcp tools available.
 | `blueteam_read_web_log` | nginx/Apache access & error logs |
 | `blueteam_journalctl` | Query any systemd unit's journal |
 
-### 🌐 Network Monitoring
+### Network Monitoring
 | Tool | Description |
 |------|-------------|
 | `blueteam_list_listening_ports` | All open/listening ports with process |
 | `blueteam_list_connections` | Established TCP connections |
 | `blueteam_capture_traffic` | Live packet capture via tcpdump |
 
-### 📊 Wazuh SIEM
+### Wazuh SIEM
 | Tool | Description |
 |------|-------------|
 | `blueteam_wazuh_agents` | List all Wazuh agents (status, IP, OS) |
@@ -140,21 +140,21 @@ Restart Claude Desktop. You should see the blue-team-mcp tools available.
 | `blueteam_wazuh_alerts` | Security alerts from alerts.json (when MCP runs on manager host) |
 | `blueteam_wazuh_indexer_search` | Query OpenSearch for agent alerts/events (HYDRA-DC Windows events) |
 
-### 🔍 Threat Intelligence
+### Threat Intelligence
 | Tool | Description |
 |------|-------------|
 | `blueteam_lookup_ip_abuseipdb` | IP reputation via AbuseIPDB |
 | `blueteam_lookup_hash_virustotal` | File hash lookup via VirusTotal |
 | `blueteam_lookup_domain_virustotal` | Domain reputation via VirusTotal |
 
-### 🚫 Fail2Ban
+### Fail2Ban
 | Tool | Description |
 |------|-------------|
 | `blueteam_fail2ban_status` | List all jails and ban counts |
 | `blueteam_fail2ban_jail_status` | Detailed status of a specific jail |
 | `blueteam_fail2ban_unban` | Unban an IP from a jail |
 
-### 🔐 File Integrity
+### File Integrity
 | Tool | Description |
 |------|-------------|
 | `blueteam_hash_file` | Hash any file (MD5/SHA1/SHA256/SHA512) |
@@ -162,14 +162,14 @@ Restart Claude Desktop. You should see the blue-team-mcp tools available.
 | `blueteam_find_world_writable` | Find world-writable files (persistence indicator) |
 | `blueteam_rootkit_scan` | Run rkhunter or chkrootkit |
 
-### 🛡️ System Hardening
+### System Hardening
 | Tool | Description |
 |------|-------------|
 | `blueteam_lynis_audit` | Full Lynis hardening audit |
 | `blueteam_check_updates` | Check for pending security updates |
 | `blueteam_check_open_firewall` | View ufw/nftables/iptables rules |
 
-### 👤 User & Session Monitoring
+### User & Session Monitoring
 | Tool | Description |
 |------|-------------|
 | `blueteam_who_is_logged_in` | Active user sessions with source IPs |
@@ -179,13 +179,13 @@ Restart Claude Desktop. You should see the blue-team-mcp tools available.
 | `blueteam_list_users` | All local accounts with risk flags |
 | `blueteam_check_ssh_authorized_keys` | All authorized_keys files |
 
-### ⚙️ Process & Persistence
+### Process & Persistence
 | Tool | Description |
 |------|-------------|
 | `blueteam_list_processes` | All running processes |
 | `blueteam_list_cron_jobs` | System and user cron jobs |
 
-### 💻 System Health
+### System Health
 | Tool | Description |
 |------|-------------|
 | `blueteam_system_health` | Uptime, disk, memory, CPU load |
